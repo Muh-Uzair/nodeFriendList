@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node friend list</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        list-style: none;
+      }
+      .mainBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .ulFriendsListCard {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-left: -40px;
+      }
+      .liFriendsListCard {
+        border: 1px solid rgb(100, 100, 100);
+        display: flex;
+        gap: 10px;
+        padding-left: 10px;
+        padding-right: 10px; 
+        
+        &:active {
+          background-color: lightgrey;
+        }
+      }
+      .mainBoxFriendDetail{
+        border: 1px solid black;
+        width: 300px;
+        height: 500px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .friendImage{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+      }
+      .friendName{
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .friendDescription{
+        border: 1px solid black ;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Node friend list</h1>
+
+      <main class="mainBox"">
+        <div class="ulFriendsListCard">
+          {%LIFRIENDSLISTCARD%}
+        </div>
+      </main>
+
+    </div>
+  </body>
+</html>

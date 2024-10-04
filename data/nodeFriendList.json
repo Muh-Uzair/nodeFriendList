@@ -1,0 +1,68 @@
+[
+  {
+    "id": 0,
+    "friendName": "Alice",
+    "image": "👩",
+    "age": 25,
+    "nationality": "Canada",
+    "merits": "Helpful, kind, and trustworthy.",
+    "demerits": "Can be indecisive at times.",
+    "younger": false,
+    "description": "Alice is always there to lend a helping hand, but she sometimes takes a bit too long to make decisions."
+  },
+  {
+    "id": 1,
+    "friendName": "Bob",
+    "image": "👨",
+    "age": 30,
+    "nationality": "Australia",
+    "merits": "Hardworking and reliable.",
+    "demerits": "A bit stubborn.",
+    "younger": false,
+    "description": "Bob works hard and is extremely reliable, though his stubbornness can get in the way of compromises."
+  },
+  {
+    "id": 2,
+    "friendName": "Clara",
+    "image": "👩‍🦰",
+    "age": 22,
+    "nationality": "Germany",
+    "merits": "Creative and fun-loving.",
+    "demerits": "Can be forgetful.",
+    "younger": true,
+    "description": "Clara loves coming up with new ideas, but she sometimes forgets important details."
+  },
+  {
+    "id": 3,
+    "friendName": "David",
+    "image": "👨‍🦱",
+    "age": 28,
+    "nationality": "United States",
+    "merits": "Great listener and supportive.",
+    "demerits": "Can be overly cautious.",
+    "younger": false,
+    "description": "David is always supportive of his friends, but his cautious nature sometimes slows him down."
+  },
+  {
+    "id": 4,
+    "friendName": "Emma",
+    "image": "👩‍🦳",
+    "age": 21,
+    "nationality": "Japan",
+    "merits": "Optimistic and energetic.",
+    "demerits": "Can be impulsive.",
+    "younger": true,
+    "description": "Emma's optimism lights up the room, though her impulsiveness can occasionally cause problems."
+  },
+  {
+    "id": 1,
+    "friendName": "Bob",
+    "image": "👨",
+    "age": 30,
+    "nationality": "Australia",
+    "merits": "Hardworking and reliable.",
+    "demerits": "A bit stubborn.",
+    "younger": false,
+    "description": "Bob works hard and is extremely reliable, though his stubbornness can get in the way of compromises."
+  }
+]
